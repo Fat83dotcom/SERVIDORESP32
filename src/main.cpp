@@ -61,6 +61,28 @@ void setup() {
 }
 
 void run() {
+
+    client = server.available();
+
+    if (client) {
+        display.setCursor(14, 17);
+        display.print(F("req"));
+        display.display();
+
+        byte metodo = mtIDENTIFICAR;
+        String url;
+        unsigned long tamanhoconteudo = 0;
+        String linha = "";
+
+        while (client.connected()) {
+            if ()
+            {
+                /* code */
+            }
+            
+        }
+        
+    }
     
 }
 
